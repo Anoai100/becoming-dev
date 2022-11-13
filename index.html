@@ -5,31 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Events</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="events.css">
 </head>
 <body>
     <header>
-        <h1 id="website_name">WebD</h1>
-        <div id="top">
-            <nav id="pri_nav">
+        <nav id="pri_nav">
+                <a id="website_name">WebD</a>
+                <input type="checkbox" id="nav_menu" class="hide">
+                <label id="nav_icon" for="nav_menu" title="menu">
+                    <span class="lines"></span>
+                    <span class="lines"></span>
+                    <span class="lines"></span>
+                </label>
                 <ul id="weblinks">
-                    <li class="links">HTML</li>
-                    <li class="links">Javascript</li>
-                    <li class="links">Python</li>
-                    <li class="links">C++</li>
-                    <li class="links">Node.js</li>
-                    <li class="links">React</li>
-                    <li class="links">jquery</li>
-                    <li class="links">java</li>
+                    <li class="links"><a href="">HTML</a></li>
+                    <li class="links"><a href="">Javascript</a></li>
+                    <li class="links"><a href="">Python</a></li>
+                    <li class="links"><a href="">C++</a></li>
+                    <li class="links"><a href="">JQuery</a></li>
+                    <li class="links"><a href="">Java</a></li>
                 </ul>
-            </nav>
-            <input type="checkbox" id="nav_menu" class="hide">
-            <label id="nav_icon" for="nav_menu" title="menu">
-                <span class="lines"></span>
-                <span class="lines"></span>
-                <span class="lines"></span>
-            </label>
-        </div>
+        </nav>
     </header>
 </body>
 </html>
